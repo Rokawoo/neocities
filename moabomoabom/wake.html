@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOABOMOABOM</title>
+    <link rel="icon" type="image/x-icon" href="../img/milk.ico">
+    <link href="../css/moabomoabom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" defer src="../js/play_opening_audio.js"></script>
+    <style>
+        #image-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <img id="image" src="../img/moabomoabom_img/wake_1.webp" alt="Fullscreen Image">
+    </div>
+    
+    <audio class="opening-audio" autoplay loop>
+        <source src="https://www.cs.drexel.edu/~ays36/Media/Audio/Personal_Site/Milk/Milk2_OST__042_room_ambience.mp3" type="audio/mp3">
+    </audio>
+    
+    <div id="content" style="top: 25%; left: 0%; display: none;">
+        <a id="next-page-link" href="https://rokawoo.neocities.org/moabomoabom/reflect.html" style="font-size: 19px;">Everything Is Going To Be Okay.</a>
+    </div>
+
+    <script>
+        const images = ['../img/moabomoabom_img/wake_1.webp', '../img/moabomoabom_img/wake_2.webp', '../img/moabomoabom_img/wake_3.webp'];
+        const imageElement = document.getElementById('image');
+        const contentElement = document.getElementById('content');
+        let currentIndex = 0;
+
+        function changeImage() {
+            imageElement.src = images[currentIndex];
+
+            if (currentIndex === images.length - 1) {
+                clearInterval(intervalId);
+                contentElement.style.display = 'block';
+            }
+
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+
+        const intervalId = setInterval(changeImage, 3000);
+    </script>
+</body>
+</html>
