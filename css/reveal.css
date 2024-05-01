@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.reveal {
+  width: 100%;
+  white-space: pre-line;
+  animation: typing 2.5s steps(999), blink .5s step-end infinite alternate;
+  overflow: hidden;
+  font-size: 1.2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}

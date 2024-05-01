@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--Thanks for your interest in my site ~ Rokawoo ^^-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rokaspace</title>
+  <link rel="icon" type="image/x-icon" href="img/AugCat.ico">
+  <link type="text/css" rel="stylesheet" href="css/index.css">
+  <link type="text/css" rel="stylesheet" href="css/reveal.css">
+  <script type="text/javascript" src="js/show_body_on_load.js"></script>
+  <script defer type="text/javascript" src="js/dynamic_background_mov.js"></script>
+  <script defer type="text/javascript" src="js/music_player.js"></script>
+  <script type="text/javascript" src="js/binary_to_text.js"></script>
+  <script type="text/javascript" src="js/click_play_awoo.js"></script>
+  <script defer type="text/javascript" src="js/reset_gif_hover.js"></script>
+  <script>
+    setTimeout(function() {
+      document.body.classList.add('loaded');
+    }, 2000);
+    
+    document.addEventListener("DOMContentLoaded", () => {
+      document.getElementById("opening-audio")?.play();
+    });
+  </script>
+</head>
+<body class="body">
+  <audio class="opening-audio" autoplay>
+    <source src="https://www.cs.drexel.edu/~ays36/Media/Audio/Personal_Site/Wakey_Wakey.mp3" type="audio/mp3">
+  </audio>
+  <div class="background-container">
+    <div class="background"></div>
+  </div>
+  <div class="wrapper">
+    <div class="reveal">
+      <div class="spinner"><img src="img/sup/ouroboros.png" draggable="false"></div>
+      <div class="main">
+        <h1><span class="nexus"></span></h1>
+        <script type="text/javascript" src="js/rand_to_text.js"></script>
+        <p id="random_phrase" style="margin-top: -20px; margin-bottom: -18px;"></p>
+        <script type="text/javascript" src="js/random_phrase.js"></script>
+
+        <div class="scroll-header">✰ Navigation ✰</div>
+        <div class="scroll">
+
+          <div class="box" id="element1" onclick="window.location.href='https://rokawoo.neocities.org/homepage'">
+            <img class="static-img" src="img/back/PawPrintTanStill.png">
+            <img class="animated-img" src="img/back/PawPrintTan.webp" loading="lazy">
+            <div class="box-name b2t">Homepage</div>
+          </div>
+          
+          <div class="box" onclick="window.location.href='https://www.cs.drexel.edu/~ays36/'">
+            <img class="static-img" src="img/main/redCodeStill.png">
+            <img class="animated-img" src="img/main/redCode.gif" loading="lazy">
+            <div class="box-name b2t">CS 164</div>
+          </div>
+          
+          <div class="box" onclick="window.location.href='https://rokawoo.neocities.org/moabomoabom/welcome'">
+            <img class="static-img" src="img/main/milkEditStill.png">
+            <img class="animated-img" src="img/main/milkEdit.webp" loading="lazy">
+            <div class="box-name b2t">Milk</div>
+          </div>
+          
+          <div class="box">
+            <a href="https://github.com/Rokawoo" target="_self">
+              <img class="static-img" src="img/main/mariPeaceStill.png">
+              <img class="animated-img" src="img/main/mariPeace.webp" loading="lazy">
+              <div class="box-name b2t">GitHub</div>
+            </a>
+          </div>
+          
+          <div class="box">
+            <a href="http://roka.123Guestbook.com/" target="_self">
+              <img class="static-img" src="img/main/milkEdit2Still.png">
+              <img class="animated-img" src="img/main/milkEdit2.webp" loading="lazy">
+              <div class="box-name b2t">Guestbook</div>
+            </a>
+          </div>
+          
+          <div class="box">
+             <a href="https://neocities.org/site/rokawoo" target="_self">
+              <img class="static-img" src="img/back/pumpkinTanStill.png">
+              <img class="animated-img" src="img/back/pumpkinTan.webp" loading="lazy">
+              <div class="box-name b2t">Site Profile</div>
+            </a>
+          </div>
+          
+          <div class="box" onclick="window.location.href='notfound'">
+            <img class="static-img" src="img/main/iSeeYouEyes.png">
+            <img class="animated-img" src="img/main/iSeeYouEyes.gif" loading="lazy">
+            <div class="box-name b2t">Under Construction</div>
+          </div>
+          
+        </div>
+        <img class="mascot" id="awoo" src="img/main/mariLaughCut.png" draggable="false" alt="Click Me!">
+        <h1 id="Guestbook"><a href="http://roka.123Guestbook.com/" target="_self">Gυεsτβοοκ</a>
+        <!-- - <a href="https://neocities.org/site/rokawoo" target="_self">Site Profile</a> - Rokawoo--></h1>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

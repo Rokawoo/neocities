@@ -1,0 +1,30 @@
+#player,#player a{ color:#fff; font-family: tahoma;}
+#player{ background:url(http://static.tumblr.com/1pk8bzc/Nk0m2bra4/volumemust11hp.png); background-position:bottom; background-color: #030303 }
+#player .mainImage{ background:url(http://static.tumblr.com/83zgfej/EzHm2bqqe/hp1.png); }
+	
+#player #baseLeft{ width:93px; }
+#player #baseRight{ width:145px;}
+#player .button{  width:26px; }
+#player #play{ background:url(http://static.tumblr.com/1pk8bzc/f5ym2br5v/hp22.png); }
+#player #play,#player #pause{ left:26px; }
+#player #previous{ left:0px; }
+#player #next{ left:52px; }
+#player #title{ left:90px;  }
+#player #tooltip{ right:196px; }
+#player #timer{ right:120px;  }
+#player #list{ right:0px; }
+
+#player #seeker{ right:320px; }
+#player #seekerBase{ border-color:#000;  }
+#player #seekerBuffered{ background-color:#fff; }
+#player #seekerSliderBase{ background-color:#000; }
+
+#player #volume{ width:65px; right:39px; }
+#player #volumeSlider{ width:8px; background:url(http://static.tumblr.com/1pk8bzc/Nk0m2bra4/volumemust11hp.png); }
+
+#playlist,#playlist .module,#playlist h3{ border-color:#000;}
+#playlist .module{  color:#fff; background-color:#000; }
+#playlist h3{ background:url(); color:#fff; background-color:#000;  }
+#playlist .even{background-color:#000;}
+#playlist .odd{ background-color:#000;}
+#playlist .focus{ background-color:#000; color:#999;}

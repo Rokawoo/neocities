@@ -1,0 +1,42 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOABOMOABOM</title>
+    <link rel="icon" type="image/x-icon" href="../img/milk.ico">
+    <link href="../css/moabomoabom.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" defer src="../js/play_opening_audio.js"></script>
+    <style>
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background: url('../img/moabomoabom_img/end.webp') center bottom no-repeat;
+            background-size: cover;
+            animation: moveBackground 60s linear infinite;
+        }
+    
+        @keyframes moveBackground {
+            0%, 100% {
+                background-position: center bottom;
+            }
+            50% {
+                background-position: center top;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="video-background"></div>
+    <audio class="opening-audio" autoplay loop>
+        <source src="https://www.cs.drexel.edu/~ays36/Media/Audio/Personal_Site/Milk/Milk2_OST__066_radio1_6.mp3" type="audio/mp3">
+    </audio>
+  <div id="content" style="top: 15%; left: 0%;">
+    <p style="font-size: 60px;">Thank <span style="color: #ae3433;">You</span> So Much For Checking Out The Story!! ^^</p>
+    <p style="font-size: 60px;">All Art And Music Belongs To Various Artists Dedicated<br><br>to "Milk Outside A Bag Of Milk Outside A Bag".</p>
+    <a id="next-page-link" href="https://rokawoo.neocities.org/" style="font-size: 100px;">RETURN</a>
+  </div>
+</body>
+</html>
