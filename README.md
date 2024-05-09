@@ -14,12 +14,12 @@
 
 **About My Cute Website**
 
-Rokawoo Space is designed to be a cheerful, silly, and welcoming space on the internet. Explore interactive features!
+Rokawoo Space is designed to be a cheerful, silly, and fun space on the internet. Explore interactive the features and story!
 
 **Features**
 
 - **Bright and Cheerful Design**: Enjoy a colorful and uplifting layout with cute pictures.
-- **Interactive Elements**: Try the milk, click on the mascot, explore the angel, endless things to do!
+- **Interactive Elements**: Try the milk, click on the mascot, explore the angel, find the password to the locked document, endless things to do! Endless things to do... Endless..
 
 
 **How to Get Started**
